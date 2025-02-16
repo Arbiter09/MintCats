@@ -1,66 +1,35 @@
-## Foundry
+data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRw
+Oi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCI+PHRleHQg
+eD0iMCIgeT0iMTUiIGZpbGw9ImJsYWNrIj5IaSEgWW91ciBicm93c2VyIGRlY29kZWQgdGhpczwv
+dGV4dD48L3N2Zz4=
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+SAD SVG:
+data:image/svg+xml;base64,
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxz
+dmcKCXhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKCXhtbG5zOmNj
+PSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCgl4bWxuczpyZGY9Imh0dHA6Ly93d3cu
+dzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCgl4bWxuczpzdmc9Imh0dHA6Ly93d3cu
+dzMub3JnLzIwMDAvc3ZnIgoJeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgoJeG1s
+bnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiCglpZD0ic2hhcmluZ2FuIgoJ
+d2lkdGg9IjMwMCIKCWhlaWdodD0iMzAwIj4KCTxkZWZzCgkJaWQ9ImRlZnMiPgoJCTxyYWRpYWxH
+cmFkaWVudAoJCQlpZD0iZ3IiPgoJCQk8c3RvcAoJCQkJb2Zmc2V0PSIwIgoJCQkJc3R5bGU9InN0
+b3AtY29sb3I6IzY2MDAwMDsgc3RvcC1vcGFjaXR5OiAxOyIKCQkJCWlkPSJzdDEiIC8+CgkJCTxz
+dG9wCgkJCQlzdHlsZT0ic3RvcC1jb2xvcjojYzMwMDAwOyBzdG9wLW9wYWNpdHk6IDE7IgoJCQkJ
+b2Zmc2V0PSIwLjUiCgkJCQlpZD0ic3QyIi8+CgkJCTxzdG9wCgkJCQlzdHlsZT0ic3RvcC1jb2xv
+cjojYTAwMDAwOyBzdG9wLW9wYWNpdHk6IDE7IgoJCQkJb2Zmc2V0PSIxIgoJCQkJaWQ9InN0MyIv
+PgoJCTwvcmFkaWFsR3JhZGllbnQ+Cgk8L2RlZnM+Cgk8Y2lyY2xlCgkJc3R5bGU9ImZpbGw6IHVy
+bCgjZ3IpOyBzdHJva2U6IzAwMDsgc3Ryb2tlLXdpZHRoOjEwOyIKCQljeD0iMTUwIgoJCWN5PSIx
+NTAiCgkJcj0iMTQ1IgoJCWlkPSJpcmlzIiAvPgoJPGcKCQlpZD0idG9tb2UgMSI+CgkJPHBhdGgK
+CQkJc3R5bGU9ImZpbGw6bm9uZTsgc3Ryb2tlOiMwMDA7IHN0cm9rZS13aWR0aDogNTsiCgkJCWQ9
+Ik0yMDAsMTUwIEMgMjAwLDIxNSAxNzAsMjc1IDE1MCwyOTUgQyAxMzAsMjc1IDEwMCwyMTUgMTAw
+LDE1MCBDIDEwMCw4NSAxMzAsMjUgMTUwLDUgQyAxNzAsMjUgMjAwLDg1IDIwMCwxNTAgeiIKCQkJ
+aWQ9InRvbW9lIDFhIiAvPgoJCTxwYXRoCgkJCXN0eWxlPSJmaWxsOiMwMDA7IgoJCQlkPSJNIDI3
+NSw3Ny41IEMgMjYwLDQwIDIwMCwwIDE1MCw1IEMgMTcwLDMwIDE4My40LDU1LjEgMTkwLDgwIEMg
+MjE1LDc1IDI0NC4yLDcxLjcgMjc1LDc3LjUgeiIKCQkJaWQ9InRvbW9lIDFiIiAvPgoJCTx1c2UK
+CQkJeGxpbms6aHJlZj0iI3RvbW9lIDFiIgoJCQl0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTUwIDE1
+MCkiCgkJCWlkPSJ0b21vZSAxYyIgLz4KCTwvZz4KCTx1c2UKCQl4bGluazpocmVmPSIjdG9tb2Ug
+MSIKCQl0cmFuc2Zvcm09InJvdGF0ZSgxMjAgMTUwIDE1MCkiCgkJaWQ9InRvbW9lIDIiIC8+Cgk8
+dXNlCgkJeGxpbms6aHJlZj0iI3RvbW9lIDEiCgkJdHJhbnNmb3JtPSJyb3RhdGUoLTEyMCAxNTAg
+MTUwKSIKCQlpZD0idG9tb2UgMyIgLz4KCTxjaXJjbGUKCQlzdHlsZT0iZmlsbDojMDAwOyIKCQlj
+eD0iMTUwIgoJCWN5PSIxNTAiCgkJcj0iMjAiCgkJaWQ9ImNlbnRlciIvPgo8L3N2Zz4=
