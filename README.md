@@ -1,35 +1,74 @@
-data:image/svg+xml;base64,
-PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRw
-Oi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCI+PHRleHQg
-eD0iMCIgeT0iMTUiIGZpbGw9ImJsYWNrIj5IaSEgWW91ciBicm93c2VyIGRlY29kZWQgdGhpczwv
-dGV4dD48L3N2Zz4=
+# MintCats
 
-SAD SVG:
-data:image/svg+xml;base64,
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxz
-dmcKCXhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKCXhtbG5zOmNj
-PSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCgl4bWxuczpyZGY9Imh0dHA6Ly93d3cu
-dzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCgl4bWxuczpzdmc9Imh0dHA6Ly93d3cu
-dzMub3JnLzIwMDAvc3ZnIgoJeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgoJeG1s
-bnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiCglpZD0ic2hhcmluZ2FuIgoJ
-d2lkdGg9IjMwMCIKCWhlaWdodD0iMzAwIj4KCTxkZWZzCgkJaWQ9ImRlZnMiPgoJCTxyYWRpYWxH
-cmFkaWVudAoJCQlpZD0iZ3IiPgoJCQk8c3RvcAoJCQkJb2Zmc2V0PSIwIgoJCQkJc3R5bGU9InN0
-b3AtY29sb3I6IzY2MDAwMDsgc3RvcC1vcGFjaXR5OiAxOyIKCQkJCWlkPSJzdDEiIC8+CgkJCTxz
-dG9wCgkJCQlzdHlsZT0ic3RvcC1jb2xvcjojYzMwMDAwOyBzdG9wLW9wYWNpdHk6IDE7IgoJCQkJ
-b2Zmc2V0PSIwLjUiCgkJCQlpZD0ic3QyIi8+CgkJCTxzdG9wCgkJCQlzdHlsZT0ic3RvcC1jb2xv
-cjojYTAwMDAwOyBzdG9wLW9wYWNpdHk6IDE7IgoJCQkJb2Zmc2V0PSIxIgoJCQkJaWQ9InN0MyIv
-PgoJCTwvcmFkaWFsR3JhZGllbnQ+Cgk8L2RlZnM+Cgk8Y2lyY2xlCgkJc3R5bGU9ImZpbGw6IHVy
-bCgjZ3IpOyBzdHJva2U6IzAwMDsgc3Ryb2tlLXdpZHRoOjEwOyIKCQljeD0iMTUwIgoJCWN5PSIx
-NTAiCgkJcj0iMTQ1IgoJCWlkPSJpcmlzIiAvPgoJPGcKCQlpZD0idG9tb2UgMSI+CgkJPHBhdGgK
-CQkJc3R5bGU9ImZpbGw6bm9uZTsgc3Ryb2tlOiMwMDA7IHN0cm9rZS13aWR0aDogNTsiCgkJCWQ9
-Ik0yMDAsMTUwIEMgMjAwLDIxNSAxNzAsMjc1IDE1MCwyOTUgQyAxMzAsMjc1IDEwMCwyMTUgMTAw
-LDE1MCBDIDEwMCw4NSAxMzAsMjUgMTUwLDUgQyAxNzAsMjUgMjAwLDg1IDIwMCwxNTAgeiIKCQkJ
-aWQ9InRvbW9lIDFhIiAvPgoJCTxwYXRoCgkJCXN0eWxlPSJmaWxsOiMwMDA7IgoJCQlkPSJNIDI3
-NSw3Ny41IEMgMjYwLDQwIDIwMCwwIDE1MCw1IEMgMTcwLDMwIDE4My40LDU1LjEgMTkwLDgwIEMg
-MjE1LDc1IDI0NC4yLDcxLjcgMjc1LDc3LjUgeiIKCQkJaWQ9InRvbW9lIDFiIiAvPgoJCTx1c2UK
-CQkJeGxpbms6aHJlZj0iI3RvbW9lIDFiIgoJCQl0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTUwIDE1
-MCkiCgkJCWlkPSJ0b21vZSAxYyIgLz4KCTwvZz4KCTx1c2UKCQl4bGluazpocmVmPSIjdG9tb2Ug
-MSIKCQl0cmFuc2Zvcm09InJvdGF0ZSgxMjAgMTUwIDE1MCkiCgkJaWQ9InRvbW9lIDIiIC8+Cgk8
-dXNlCgkJeGxpbms6aHJlZj0iI3RvbW9lIDEiCgkJdHJhbnNmb3JtPSJyb3RhdGUoLTEyMCAxNTAg
-MTUwKSIKCQlpZD0idG9tb2UgMyIgLz4KCTxjaXJjbGUKCQlzdHlsZT0iZmlsbDojMDAwOyIKCQlj
-eD0iMTUwIgoJCWN5PSIxNTAiCgkJcj0iMjAiCgkJaWQ9ImNlbnRlciIvPgo8L3N2Zz4=
+MintCats is a Solidity-based NFT project that allows users to mint cat-themed NFTs. The project includes a dynamic NFT contract (`MoodNft`) that changes its metadata based on user interactions and a standard ERC721 contract (`BasicNft`).
+
+## Features
+
+- **Basic NFT Minting**: Users can mint NFTs with unique image URIs.
+- **Mood-based NFTs**: The `MoodNft` contract allows flipping the NFT mood between happy and sad.
+- **Fully On-Chain Metadata**: `MoodNft` stores metadata directly on-chain using Base64 encoding.
+- **Deploy and Interact Scripts**: Foundry-based deployment and interaction scripts for automation.
+
+## Contracts
+
+### 1. BasicNft
+
+- Implements a simple ERC721 NFT.
+- Allows minting NFTs with IPFS-stored metadata.
+
+### 2. MoodNft
+
+- Implements an ERC721 NFT that can flip moods.
+- Metadata is stored entirely on-chain.
+
+## Installation & Setup
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Foundry](https://book.getfoundry.sh/)
+- [Node.js](https://nodejs.org/)
+
+### Clone the Repository
+
+```sh
+git clone https://github.com/Arbiter09/MintCats.git
+cd MintCats
+```
+
+### Install Dependencies
+
+```sh
+forge install
+```
+
+## Deployment
+
+### Deploy Basic NFT
+
+```sh
+forge script script/DeployBasicNft.s.sol:DeployBasicNft --rpc-url <YOUR_RPC_URL> --broadcast
+```
+
+### Deploy Mood NFT
+
+```sh
+forge script script/DeployMoodNft.s.sol:DeployMoodNft --rpc-url <YOUR_RPC_URL> --broadcast
+```
+
+## Interaction
+
+### Mint a Basic NFT
+
+```sh
+forge script script/Interactions.s.sol:MintBasicNft --rpc-url <YOUR_RPC_URL> --broadcast
+```
+
+### Flip Mood of Mood NFT
+
+Call `flipMood(tokenId)` on the deployed MoodNft contract using a Web3 interface like Foundry or Ethers.js.
+
+## License
+
+This project is licensed under the MIT License.
