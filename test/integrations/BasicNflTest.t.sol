@@ -21,10 +21,7 @@ contract BasicNftTest is Test {
         string memory expectedName = "Cats_<3";
         string memory actualName = basicNft.name();
 
-        assert(
-            keccak256(abi.encodePacked(expectedName)) ==
-                keccak256(abi.encodePacked(actualName))
-        );
+        assert(keccak256(abi.encodePacked(expectedName)) == keccak256(abi.encodePacked(actualName)));
     }
 
     function testCanMintAndHaveBalance() public {
@@ -32,9 +29,6 @@ contract BasicNftTest is Test {
         basicNft.mintNft(CAT);
 
         assert(basicNft.balanceOf(USER) == 1);
-        assert(
-            keccak256(abi.encodePacked(CAT)) ==
-                keccak256(abi.encodePacked(basicNft.tokenURI(0)))
-        );
+        assert(keccak256(abi.encodePacked(CAT)) == keccak256(abi.encodePacked(basicNft.tokenURI(0))));
     }
 }

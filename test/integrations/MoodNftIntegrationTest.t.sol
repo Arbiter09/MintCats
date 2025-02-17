@@ -42,10 +42,7 @@ contract MoodNftIntegrationTest is Test {
 
         console.log(moodNft.tokenURI(0));
 
-        assertEq(
-            keccak256(abi.encodePacked(moodNft.tokenURI(0))),
-            keccak256(abi.encodePacked(SAD_MOOD_URI))
-        );
+        assertEq(keccak256(abi.encodePacked(moodNft.tokenURI(0))), keccak256(abi.encodePacked(SAD_MOOD_URI)));
     }
 
     function testNewlyMintedNftIsHappy() public {
@@ -54,10 +51,7 @@ contract MoodNftIntegrationTest is Test {
 
         console.log(moodNft.tokenURI(0));
 
-        assertEq(
-            keccak256(abi.encodePacked(moodNft.tokenURI(0))),
-            keccak256(abi.encodePacked(HAPPY_MOOD_URI))
-        );
+        assertEq(keccak256(abi.encodePacked(moodNft.tokenURI(0))), keccak256(abi.encodePacked(HAPPY_MOOD_URI)));
     }
 
     function testFlipMoodBackToHappy() public {
@@ -70,10 +64,7 @@ contract MoodNftIntegrationTest is Test {
         vm.prank(USER);
         moodNft.flipMood(0);
 
-        assertEq(
-            keccak256(abi.encodePacked(moodNft.tokenURI(0))),
-            keccak256(abi.encodePacked(HAPPY_MOOD_URI))
-        );
+        assertEq(keccak256(abi.encodePacked(moodNft.tokenURI(0))), keccak256(abi.encodePacked(HAPPY_MOOD_URI)));
     }
 
     function testOnlyOwnerCanFlipMood() public {
